@@ -1090,7 +1090,7 @@ body > footer .copyrights {
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 85%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
@@ -1110,7 +1110,7 @@ body > footer .copyrights {
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 60%;
+  width: 80%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
@@ -1429,6 +1429,7 @@ body > footer .copyrights {
   width: 33.33333%;
   float: left;
   padding: 3px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 6%);
 }
 
 .portfolio-grid img {
@@ -2486,7 +2487,7 @@ blockquote footer, blockquote small, blockquote .small {
 
 @media only screen and (max-width: 769px) {
   .portfolio-grid figure {
-    /*width: 50%;*/
+    width: 50%;
   }
 
   .home-page-block h2 {
@@ -2542,7 +2543,7 @@ blockquote footer, blockquote small, blockquote .small {
 
 @media only screen and (max-width: 480px) {
   .portfolio-grid figure {
-    /*width: 100%;*/
+    width: 100%;
   }
 
   .home-page-block h2 {

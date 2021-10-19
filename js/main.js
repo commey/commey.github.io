@@ -132,8 +132,12 @@
 
         // Blog grid init
         setTimeout(function(){
-            var $container = $(".blog-masonry");
-            $container.masonry();
+            var $container = $(".portfolio-masonry");
+            $container.masonry({
+                itemSelector: 'figure',
+                fitWidth: true
+            });
+            console.log("fghjkl")
         }, 500);
 
         // Mobile menu

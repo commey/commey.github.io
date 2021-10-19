@@ -1,0 +1,82 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="kreeksend.html"><i class="zmdi zmdi-chevron-left"></i></a>
+                <!-- <a class="ajax-page-load" href="kreeksend.html"><i class="zmdi zmdi-chevron-right"></i></a> -->
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="zmdi zmdi-close"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Safari Valley</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/portfolio/safari/screenshot1.png" alt="safari valley" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/safari/screenshot2.png" alt="safari valley" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/safari/screenshot3.png" alt="safari valley" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/safari/screenshot4.png" alt="safari valley" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/safari/screenshot5.png" alt="safari valley" />
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Description</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li><p><i class="fa fa-laptop"></i>Safari Valley Resort</p></li>
+                    <li><p><i class="fa fa-globe"></i> <a href="https://safarivalleyresort.com" target="_blank">https://safarivalleyresort.com</a></p></li>
+                </ul>
+
+                <p>Safari Valley is the first luxury Eco Park Resort sited in the Okere District in the Eastern Region of Ghana with accommodation and Recreation facilities that provide world class services to its guests.</p>
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <!-- <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Technology</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>Node</a></li>
+                        <li><a>Vue</a></li>
+                        <li><a>Firebase</a></li>
+                    </ul>
+                </div> -->
+                <!-- /Technology -->
+            </div>
+        </div>
+    </div>
+</div>
